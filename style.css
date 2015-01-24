@@ -323,6 +323,7 @@ div.buttons-box {
     width: 80px;
     height: 80px;
     position: absolute;
+    z-index: 101;
     left: 400px;
     top: 50px;
 }
@@ -350,6 +351,7 @@ div.set-button-box {
     width: 80px;
     height: 30px;
     position: absolute;
+    z-index: 98;
     left: 420px;
     top: 200px;
 }
@@ -427,6 +429,7 @@ div.bot-cross {
     height: 22px;
     background: #222;
     position: absolute;
+    z-index: 98;
     left: 33px;
     top: 45px;
     -webkit-box-shadow: 2px 2px 4px -1px rgba(10, 10, 10, 1), inset 1px 0px 0px 0px rgb(93, 93, 93);
@@ -509,7 +512,7 @@ div.textbox{
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 101;
+
 }
 h1{
     font-family: "century gothic", arial, helvetica, sans-serif;
