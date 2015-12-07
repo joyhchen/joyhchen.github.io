@@ -1,0 +1,532 @@
+/***
+Team Members: Joy Chen, Keshav Sanghani, Aneesh Balusu
+Title: Recycle
+Purpose: To inform the public about the benefits of recycling
+***/
+
+
+/**** Website styling ****/
+
+
+/* Apache License http://www.apache.org/licenses/LICENSE-2.0.html*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900);
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+::-moz-selection {
+    background: #4BB5C1;
+    color: #FFFFFF;
+}
+
+::selection {
+    /* highlight text color */
+    background: #4BB5C1;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #EDF7F2;
+    text-align: center;
+    height: 100%;
+    -webkit-animation-delay: 0.1s;
+    /* chrome google fonts fix */
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+body,
+.row,
+.medium-top-image {
+    overflow-x: hidden;
+}
+
+@-webkit-keyframes fontfix {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 90%;
+}
+
+.mobile-only {
+    visibility: hidden;
+    padding-left: 10px;
+}
+
+.fullrow {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+
+/**** text stylings for the website ****/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', 'Open Sans', 'Arial Black', arial, helvetica, sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    /*	font-size: 98%; */
+    text-align: left;
+    letter-spacing: 0.2px;
+    line-height: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-differentiate {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.29);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-lime-green,
+.text-lime-green a {
+    color: #8bba2b;
+    transition: color 300ms ease;
+}
+
+.text-lime-green a:hover {
+    color: #698d21;
+}
+
+.text-blue1,
+.text-blue1 a {
+    color: #4BB5C1;
+    transition: color 300ms ease;
+}
+
+.text-blue1 a:hover {
+    color: #3c959f;
+}
+
+.text-offwhite,
+.text-offwhite a {
+    color: #EDF7F2;
+    transition: color 300ms ease;
+}
+
+.text-offwhite a:hover {
+    color: #d2ddd7;
+}
+
+.text-vertical-center {
+    vertical-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-space {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-augment {
+    font-size: 1.2rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.bg-offwhite {
+    background: #EDF7F2;
+}
+
+.bg-blue1 {
+    background: #4BB5C1;
+}
+
+.bg-lime-green {
+    background: #8bba2b;
+}
+
+
+/* text styling end */
+
+
+/* buttons */
+
+.button {
+    font-family: 'Source Sans Pro', 'Open Sans', 'Arial Black', arial, helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.ghost {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: background 300ms ease;
+}
+
+.ghost:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.big-top-image {
+    background: linear-gradient( rgba(74, 74, 73, 0.95), rgba(74, 74, 73, 0.45)), url('../images/mountains-min.jpg') -500px;
+    width: 100%;
+}
+
+.medium-top-image {
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.small-top-image {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 65rem) {
+    .logo {
+        visibility: hidden;
+    }
+    .mobile-only {
+        visibility: visible;
+    }
+    .bannerimg {
+        visibility: hidden;
+    }
+}
+
+
+/* @media only screen and (max-width: 23.063rem) {} */
+
+.logo {
+    position: absolute;
+    left: 7.5em;
+    z-index: 99;
+    width: 18%;
+    height: auto;
+}
+
+
+/* nav bar */
+
+.top-bar ul li a,
+.top-bar .has-dropdown .dropdown li a {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.top-bar {
+    transition: 200ms;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    background: #8bba2b;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        /* main li */
+    }
+    .firstlink {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    /* active color */
+    background: #73a018;
+    transition: background 300ms ease;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #5f8412;
+    /* active hover */
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    color: #FFFFFF;
+    background: #8bba2b;
+    transition: background 300ms ease;
+    /* normal dropdown items */
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+    background: #7fad21;
+    /* dropdown items hover */
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #8bba2b;
+    transition: background 300ms ease;
+    /* main li */
+}
+
+.top-bar-section ul li {
+    background: #8bba2b;
+}
+
+.top-bar.expanded .title-area {
+    background: #8bba2b;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #7fad21;
+    /* main li hover */
+}
+
+.top-bar-section .has-dropdown > a:after {
+    border-color: #689019 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    /* dropdown arrow */
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background: #8bba2b;
+    /* when you hover over a dropdown item, this is the color of the parent */
+}
+
+
+/* nav bar css end */
+
+
+/* banner */
+
+.banner-height {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.medium-top-image p a {
+    transition: color 300ms ease;
+}
+
+.medium-top-image p a:hover {
+    color: #2b6412;
+}
+
+
+/* banner end */
+
+/* custom sections */
+
+.home-options li {
+    /*box-shadow: 0px 2px 2px 2px #000;*/
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.issues li {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.med-1 {
+    background: linear-gradient( rgba(237, 247, 242, 0.85), rgba(237, 247, 242, 0.85)), /* bottom, image */
+    url('../images/med1.jpg') no-repeat -50px;
+}
+
+.med-2 {
+    background: linear-gradient( rgba(139, 186, 43, 0.93), rgba(139, 186, 43, 0.93)), /* bottom, image */
+    url('../images/med2.jpg') no-repeat -50px;
+}
+
+.med-3 {
+    background: linear-gradient( rgba(237, 247, 242, 0.85), rgba(237, 247, 242, 0.85)), /* bottom, image */
+    url('../images/med3.jpg') no-repeat -1px;
+}
+
+.med-4 {
+    background: linear-gradient( rgba(75, 181, 193, 0.83), rgba(75, 181, 193, 0.83)), /* bottom, image */
+    url('../images/med4.jpg') no-repeat -50px;
+}
+
+.img1 {
+    width: 100%;
+    height: 105%;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+/* footer styling */
+
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.copyright {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.copyright p {
+    text-transform: uppercase;
+    color: rgba(244, 244, 244, 0.2);
+}
+
+footer p,
+footer h4,
+footer h5 {
+    margin-top: 1rem;
+    color: rgba(244, 244, 244, 0.3);
+}
+
+footer a {
+    color: rgba(244, 244, 244, 0.3);
+    transition: color 300ms ease;
+}
+
+footer a:hover {
+    color: rgba(244, 244, 244, 0.5);
+}
+
+footer ul,
+.no-bul {
+    list-style-type: none;
+}
+
+
+/* about */
+
+.about-img {
+    background: url('../images/pmount.jpg') no-repeat -50px;
+}
+
+
+/* contact */
+
+.contact-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.42), rgba(74, 74, 74, 0.42)), /* bottom, image */
+    url('../images/pg5.jpg') no-repeat -50px;
+}
+
+
+/* facts */
+
+.facts-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
+    url('../images/ppath.jpg') no-repeat;
+}
+
+.minpadding {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+
+/* stats */
+
+.stats-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.22), rgba(74, 74, 74, 0.22)), /* bottom, image */
+    url('../images/pg2.jpg') no-repeat -2px;
+}
+
+
+/* benefits */
+
+.benefits-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
+    url('../images/pg1.jpg') no-repeat -2px;
+}
+
+
+/* main issues */
+
+.mainissues-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.62), rgba(74, 74, 74, 0.62)), /* bottom, image */
+    url('../images/pg06.jpg') no-repeat -2px;
+}
+
+
+/* help out */
+
+.help-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.42), rgba(74, 74, 74, 0.42)), /* bottom, image */
+    url('../images/pg07.jpg') no-repeat -2px;
+}
+
+
+/* volunteer */
+
+.volunteer-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.52), rgba(74, 74, 74, 0.52)), /* bottom, image */
+    url('../images/pg08.jpg') no-repeat -2px;
+}
+
+
+/* recycle */
+
+.recycle-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.72)), /* bottom, image */
+    url('../images/pg09.jpg') no-repeat -2px;
+}
+
+
+/* organize a drive */
+
+.drive-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
+    url('../images/pg12.jpg') no-repeat -2px;
+}
+
+
+/* find a center */
+
+.recycent-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
+    url('../images/pg10.jpg') no-repeat -2px;
+}
+
+/* donate */
+
+.donate-img {
+    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
+    url('../images/pg11.jpg') no-repeat -2px;
+}
