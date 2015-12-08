@@ -479,45 +479,39 @@ footer ul,
 /* help out */
 
 .help-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.42), rgba(74, 74, 74, 0.42)), /* bottom, image */
-    url('../images/pg07.jpg') no-repeat -2px;
+    background: url('../images/pg07.jpg') no-repeat -2px;
 }
 
 
 /* volunteer */
 
 .volunteer-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.52), rgba(74, 74, 74, 0.52)), /* bottom, image */
-    url('../images/pg08.jpg') no-repeat -2px;
+    background: url('../images/pg08.jpg') no-repeat -2px;
 }
 
 
 /* recycle */
 
 .recycle-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.72)), /* bottom, image */
-    url('../images/pg09.jpg') no-repeat -2px;
+    background: url('../images/pg09.jpg') no-repeat -2px;
 }
 
 
 /* organize a drive */
 
 .drive-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
-    url('../images/pg12.jpg') no-repeat -2px;
+    background: url('../images/pg12.jpg') no-repeat -2px;
 }
 
 
 /* find a center */
 
 .recycent-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
-    url('../images/pg10.jpg') no-repeat -2px;
+    background: url('../images/pg10.jpg') no-repeat -2px;
 }
 
 /* donate */
 
 .donate-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
-    url('../images/pg11.jpg') no-repeat -2px;
+    background: url('../images/pg11.jpg') no-repeat -2px;
 }
