@@ -365,23 +365,19 @@ p {
 }
 
 .med-1 {
-    background: linear-gradient( rgba(237, 247, 242, 0.85), rgba(237, 247, 242, 0.85)), /* bottom, image */
-    url('../images/med1.jpg') no-repeat -50px;
+    background: url('../images/med1.jpg') no-repeat -50px;
 }
 
 .med-2 {
-    background: linear-gradient( rgba(139, 186, 43, 0.93), rgba(139, 186, 43, 0.93)), /* bottom, image */
-    url('../images/med2.jpg') no-repeat -50px;
+    background: url('../images/med2.jpg') no-repeat -50px;
 }
 
 .med-3 {
-    background: linear-gradient( rgba(237, 247, 242, 0.85), rgba(237, 247, 242, 0.85)), /* bottom, image */
-    url('../images/med3.jpg') no-repeat -1px;
+    background: url('../images/med3.jpg') no-repeat -1px;
 }
 
 .med-4 {
-    background: linear-gradient( rgba(75, 181, 193, 0.83), rgba(75, 181, 193, 0.83)), /* bottom, image */
-    url('../images/med4.jpg') no-repeat -50px;
+    background: url('../images/med4.jpg') no-repeat -50px;
 }
 
 .img1 {
@@ -443,16 +439,14 @@ footer ul,
 /* contact */
 
 .contact-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.42), rgba(74, 74, 74, 0.42)), /* bottom, image */
-    url('../images/pg5.jpg') no-repeat -50px;
+    background: url('../images/pg5.jpg') no-repeat -50px;
 }
 
 
 /* facts */
 
 .facts-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
-    url('../images/ppath.jpg') no-repeat;
+    background: url('../images/ppath.jpg') no-repeat;
 }
 
 .minpadding {
@@ -464,24 +458,21 @@ footer ul,
 /* stats */
 
 .stats-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.22), rgba(74, 74, 74, 0.22)), /* bottom, image */
-    url('../images/pg2.jpg') no-repeat -2px;
+    background: url('../images/pg2.jpg') no-repeat -2px;
 }
 
 
 /* benefits */
 
 .benefits-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.82), rgba(74, 74, 74, 0.82)), /* bottom, image */
-    url('../images/pg1.jpg') no-repeat -2px;
+    background: url('../images/pg1.jpg') no-repeat -2px;
 }
 
 
 /* main issues */
 
 .mainissues-img {
-    background: linear-gradient( rgba(74, 74, 74, 0.62), rgba(74, 74, 74, 0.62)), /* bottom, image */
-    url('../images/pg06.jpg') no-repeat -2px;
+    background: url('../images/pg06.jpg') no-repeat -2px;
 }
 
 
