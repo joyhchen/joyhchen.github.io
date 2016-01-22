@@ -1,0 +1,705 @@
+/***
+Team Members: Joy Chen, Keshav Sanghani, Aneesh Balusu
+School: Hinsdale Central High School
+Location: Hinsdale, Illinois, United States of America
+Site Title: Recycle
+Purpose: To inform the public about the benefits of recycling
+Note: This CSS was compiled from SCSS. Therefore, there will be comments denoting what line in the SCSS file the CSS was compiled from. This stylesheet was initially written in vanila CSS, but we switched to a CSS preprocessor when some of the code got too long (mainly for selector nesting purposes).
+***/
+
+
+/**** Website styling ****/
+
+
+/* Apache License http://www.apache.org/licenses/LICENSE-2.0.html*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0px;
+}
+::-moz-selection {
+    background: #4BB5C1;
+    color: #FFFFFF;
+}
+::selection {
+    /* highlight text color */
+    background: #4BB5C1;
+    color: #FFFFFF;
+}
+body {
+    background-color: #fcfcfc;
+    text-align: center;
+    height: 100%;
+    -webkit-animation-delay: 0.1s;
+    /* chrome google fonts fix */
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+body,
+.row,
+.medium-top-image {
+    overflow-x: hidden;
+}
+@-webkit-keyframes fontfix {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.container {
+    width: 95%;
+}
+.row {
+    max-width: 70rem;
+}
+.mobile-only {
+    visibility: hidden;
+    padding-left: 10px;
+}
+.fullrow {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+/**** text stylings for the website ****/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', 'Open Sans', 'Arial Black', arial, helvetica, sans-serif;
+    color: #ffffff;
+}
+p {
+    font-family: 'Lato', 'Open Sans', 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.15rem;
+    letter-spacing: 0.01rem;
+    text-align: left;
+    line-height: 2.2rem;
+    color: #333;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-differentiate {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.29);
+}
+.text-light-differentiate {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: #000000;
+}
+.text-dark-grey {
+    color: #121212;
+}
+.text-lime-green,
+.text-lime-green a {
+    color: #8bba2b;
+    transition: color 300ms ease;
+}
+.text-lime-green a:hover {
+    color: #698d21;
+}
+.text-dark-green,
+.text-dark-green a {
+    color: #537212;
+}
+.text-blue1,
+.text-blue1 a {
+    color: #4BB5C1;
+    transition: color 300ms ease;
+}
+.text-blue1 a:hover {
+    color: #3c959f;
+}
+.text-blue2,
+.text-blue2 a {
+    color: #2f8c96;
+    transition: color 300ms ease;
+}
+.text-blue2 a:hover {
+    color: #1e737c;
+}
+.text-offwhite,
+.text-offwhite a {
+    color: #EDF7F2;
+    transition: color 300ms ease;
+}
+.text-offwhite a:hover {
+    color: #d2ddd7;
+}
+.text-grey,
+.text-grey a {
+    color: #3b3b3b;
+    transition: color 300ms ease;
+}
+.text-grey a:hover {
+    color: #1a1a1a;
+}
+.text-vertical-center {
+    vertical-align: center;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-space {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.text-spacing {
+    letter-spacing: 0.1rem;
+}
+.text-augment {
+    font-size: 1.3rem;
+}
+.text-small {
+    font-size: 0.9rem;
+}
+.links {
+    padding-top: 5rem;
+    list-style: none;
+    color: #313131;
+}
+.links li,
+.lists li {
+    padding: 1rem;
+}
+.links li a,
+.lists li a {
+    transition: 200ms ease;
+}
+.links li a:hover,
+.lists li a:hover {
+    color: #535353;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.bg-offwhite {
+    background: #dee2e0;
+}
+.bg-blue1 {
+    background: #4BB5C1;
+}
+.bg-lime-green {
+    background: #8bba2b;
+}
+.bg-dark-blue {
+    background: #1a4b5a;
+}
+
+/* text styling end */
+
+.bottom-space {
+    padding-bottom: 6rem;
+}
+
+/* buttons */
+
+.button {
+    font-family: 'Montserrat', 'Open Sans', 'Arial Black', arial, helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.ghost {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: background 300ms ease;
+}
+.ghost-grey {
+    border: 2px solid #3b3b3b;
+    color: #3b3b3b;
+}
+.ghost-grey:hover {
+    border: 2px solid #1f1f1f;
+    color: #1f1f1f;
+}
+.ghost:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.big-top-image {
+    background: linear-gradient( rgba(46, 49, 54, 0.9), rgba(30, 38, 41, 0.8)), url('../images/test.jpg') -2px;
+    width: 100%;
+}
+.big-top-image i.fa-chevron-down {
+    color: #ffffff;
+    padding-top: 5rem;
+}
+.big-top-image p {
+    text-align: center;
+}
+.medium-top-image {
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.small-top-image {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+@media only screen and (max-width: 65rem) {
+    .mobile-only {
+        visibility: visible;
+    }
+    .bannerimg {
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 70rem) {
+    .logo,
+    .mobile-disappear {
+        visibility: hidden;
+    }
+}
+
+/* @media only screen and (max-width: 23.063rem) {} */
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 7.5em;
+    z-index: 100;
+    width: 16%;
+    height: auto;
+}
+
+/* nav bar */
+
+.top-bar ul li a,
+.top-bar .has-dropdown .dropdown li a {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.top-bar {
+    transition: 200ms;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.1);
+    background: #8bba2b;
+}
+@media only screen and (min-width: 40.063em) {
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        /* main li */
+    }
+    .firstlink {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    /* active color */
+    background: #73a018;
+    transition: background 300ms ease;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #5f8412;
+    /* active hover */
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    color: #FFFFFF;
+    background: #8bba2b;
+    transition: background 300ms ease;
+    /* normal dropdown items */
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+    background: #7fad21;
+    /* dropdown items hover */
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #8bba2b;
+    transition: background 300ms ease;
+    /* main li */
+}
+.top-bar-section ul li {
+    background: #8bba2b;
+}
+.top-bar.expanded .title-area {
+    background: #8bba2b;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #7fad21;
+    /* main li hover */
+}
+.top-bar-section .has-dropdown > a:after {
+    border-color: #689019 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    /* dropdown arrow */
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background: #8bba2b;
+    /* when you hover over a dropdown item, this is the color of the parent */
+}
+
+/* nav bar css end */
+
+
+/* banner */
+
+.banner-height {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+}
+.medium-top-image p a {
+    transition: color 300ms ease;
+}
+.medium-top-image p a:hover {
+    color: #2b6412;
+}
+.index-banner p {
+    font-size: 1.25rem;
+}
+
+/* banner end */
+
+
+/* custom sections */
+
+.help-options li {
+    h3 {
+        text-shadow: 0px 1px 7px rgba(0, 0, 0, 0.4);
+    }
+    a {
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+        display: block;
+    }
+}
+.help-volunteer,
+.help-donate,
+.help-recycle,
+.help-organize,
+.help-help,
+.help-save {
+    transition: all 200ms ease;
+}
+.help-volunteer {
+    background: linear-gradient( rgba(24, 98, 7, 0.7), rgba(24, 98, 7, 0.7)), url('../images/working.jpg');
+    &:hover {
+        background: linear-gradient( rgba(24, 98, 7, 0.9), rgba(24, 98, 7, 0.9)), url('../images/working.jpg');
+    }
+}
+.help-donate {
+    background: linear-gradient( rgba(7, 98, 73, 0.7), rgba(7, 98, 73, 0.7)), url('../images/money.jpg');
+    &:hover {
+        background: linear-gradient( rgba(7, 98, 73, 0.9), rgba(7, 98, 73, 0.9)), url('../images/money.jpg');
+    }
+}
+.help-recycle {
+    background: linear-gradient( rgba(24, 98, 7, 0.8), rgba(24, 98, 7, 0.8)), url('../images/vintage.jpg');
+    &:hover {
+        background: linear-gradient( rgba(24, 98, 7, 0.95), rgba(24, 98, 7, 0.95)), url('../images/vintage.jpg');
+    }
+}
+.help-organize {
+    background: linear-gradient( rgba(5, 70, 45, 0.6), rgba(5, 70, 45, 0.6)), url('../images/truck.jpg');
+    &:hover {
+        background: linear-gradient( rgba(5, 70, 45, 0.9), rgba(5, 70, 45, 0.9)), url('../images/truck.jpg');
+    }
+}
+.help-help {
+    background: linear-gradient( rgba(18, 74, 5, 0.6), rgba(18, 74, 5, 0.6)), url('../images/social.jpg');
+    &:hover {
+        background: linear-gradient( rgba(18, 74, 5, 0.9), rgba(18, 74, 5, 0.9)), url('../images/social.jpg');
+    }
+}
+.help-save {
+    background: linear-gradient( rgba(5, 70, 45, 0.7), rgba(5, 70, 45, 0.7)), url('../images/gold.jpg');
+    &:hover {
+        background: linear-gradient( rgba(5, 70, 45, 0.9), rgba(5, 70, 45, 0.9)), url('../images/gold.jpg');
+    }
+}
+
+/*.help-text-block{
+    margin: 0px auto;
+    width: 50%;
+    background: blue;
+}*/
+
+.home-options li {
+    /*box-shadow: 0px 2px 2px 2px #000;*/
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.home-options img {
+    width: 80%;
+}
+.home-options .button {
+    margin-top: 2rem;
+}
+.width-confined {
+    width: 77%;
+    margin: 0px auto;
+}
+.issues li {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.med-1 {
+    background: url('../images/med1.jpg') no-repeat -50px;
+}
+.med-2 {
+    background: url('../images/med2.jpg') no-repeat -50px;
+}
+.med-3 {
+    background: url('../images/med3.jpg') no-repeat -1px;
+}
+.med-4 {
+    background: url('../images/med4.jpg') no-repeat -50px;
+}
+.img1 {
+    width: 100%;
+    height: 105%;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.social-links {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* footer styling */
+
+footer {
+    background-color: #282d31;
+    color: #fff;
+    padding-top: 2rem;
+    text-align: left;
+}
+.copyright {
+    margin-top: 2rem;
+    background: rgba(0, 0, 0, 0.2);
+    i {
+        padding-left: 0.1rem;
+    }
+}
+.copyright p {
+    color: rgba(244, 244, 244, 0.2);
+}
+footer p,
+footer h4,
+footer h5 {
+    margin-top: 1rem;
+    color: rgba(244, 244, 244, 0.3);
+}
+footer a {
+    color: rgba(244, 244, 244, 0.3);
+    transition: color 300ms ease;
+}
+footer a:hover {
+    color: rgba(244, 244, 244, 0.5);
+}
+footer ul,
+.no-bul {
+    list-style-type: none;
+}
+.z-front {
+    position: absolute;
+    z-index: 98;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.move-from-top {
+    margin-top: 6.5rem;
+}
+.move-less-top {
+    margin-top: 3rem;
+}
+.about-img,
+.contact-img,
+.facts-img,
+.stats-img,
+.benefits-img,
+.mainissues-img,
+.help-img,
+.volunteer-img,
+.recycle-img,
+.drive-img,
+.quiz-img,
+.recyent-img,
+.donate-img,
+.save-img,
+.team-img,
+.find-img {
+    -webkit-box-shadow: inset 0px -5px 15px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px -5px 15px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -5px 15px 2px rgba(0, 0, 0, 0.2);
+    h1 {
+        margin-top: 3.2%;
+        letter-spacing: 0.2rem;
+    }
+}
+
+/* about */
+
+
+/*.about-img {
+    background: url('../images/pmount.jpg') no-repeat -50px;
+}*/
+
+
+/* contact */
+
+
+/*.contact-img {
+    background: url('../images/pg5.jpg') no-repeat -50px;
+}*/
+
+
+/* facts */
+
+
+/*.facts-img {
+    background: url('../images/ppath.jpg') no-repeat;
+}*/
+
+.minpadding {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+div.medium-top-image.mintop {
+    padding-top: 3rem;
+}
+.minbottompadding {
+    padding-bottom: 4rem;
+}
+.panel,
+.panel.callout {
+    background: rgba(0, 0, 0, 0);
+    border-color: #4BB5C1;
+}
+
+/* stats */
+
+
+/*.stats-img {
+    background: url('../images/pg2.jpg') no-repeat -2px;
+}*/
+
+
+/* benefits */
+
+
+/*.benefits-img {
+    background: url('../images/pg1.jpg') no-repeat -2px;
+}*/
+
+
+/* main issues */
+
+
+/*.mainissues-img {
+    background: url('../images/pg06.jpg') no-repeat -2px;
+}*/
+
+
+/* help out */
+
+
+/*.help-img {
+    background: url('../images/pg07.jpg') no-repeat -2px;
+}*/
+
+.social-list li {
+    padding-bottom: 2rem;
+}
+
+/* volunteer */
+
+
+/*
+.volunteer-img {
+    background: url('../images/pg08.jpg') no-repeat -2px;
+}*/
+
+
+/* recycle */
+
+
+/*.recycle-img {
+    background: url('../images/pg09.jpg') no-repeat -2px;
+}*/
+
+
+/* organize a drive */
+
+
+/*
+.drive-img {
+    background: url('../images/pg12.jpg') no-repeat -2px;
+}*/
+
+
+/* quiz */
+
+
+/*.quiz-img {
+    background: url('../images/pg20.jpg') no-repeat -2px;
+}*/
+
+
+/* save money */
+
+
+/*.save-img {
+    background: url('../images/pg22.jpg') no-repeat -2px;
+}*/
+
+
+/* donate */
+
+
+/*
+.donate-img {
+    background: url('../images/pg11.jpg') no-repeat -2px;
+}*/
+
+
+/* costs */
+
+.range-slider.vertical-range .range-slider-handle {
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    width: 1rem;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+.range-slider,
+.range-slider.vertical-range {
+    border: 1px solid #b4b4b4;
+    width: 0.1rem;
+}
+.range-slider.vertical-range .range-slider-active-segment {
+    background: rgba(0, 0, 0, 0);
+}
