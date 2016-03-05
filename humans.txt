@@ -1,8 +1,0 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
-
-/* SITE */
-/* This website was created using Foundation by Joy Chen, Keshav Sanghani, and Aneesh Balusu from Hinsdale Central High School for the 2015-2016 Business Professionals of America Web Site Design Team competition */
-
-/* Software used: GIMP 2 - image editing and formatting, Brackets - code editor, Inkscape - vector graphics */
