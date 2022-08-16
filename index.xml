@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joy Chen</title>
+    <link>https://joyhchen.github.io/</link>
+    <description>Recent content on Joy Chen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Aug 2022 22:10:35 -0400</lastBuildDate><atom:link href="https://joyhchen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://joyhchen.github.io/about/</link>
+      <pubDate>Sat, 13 Aug 2022 23:44:08 -0400</pubDate>
+      
+      <guid>https://joyhchen.github.io/about/</guid>
+      <description>I currently live in NYC. I grew up in the Chicago suburbs. I&amp;rsquo;ve also spent extended time in Ithaca and Beijing.</description>
+    </item>
+    
+    <item>
+      <title>Best of 地铁音MAD</title>
+      <link>https://joyhchen.github.io/post/ditieyinmad/</link>
+      <pubDate>Sat, 13 Aug 2022 22:10:35 -0400</pubDate>
+      
+      <guid>https://joyhchen.github.io/post/ditieyinmad/</guid>
+      <description>What is Bilibili? Bilibili is a video-sharing website known for bullet comments, live comments that play over videos in real time (more: What is Bilibili?).
+What is 音MAD? 音MAD (pronounced: yin mad, literally &amp;ldquo;sound MAD&amp;rdquo;) is a category of video where a song and some audio source are remixed together. 地铁音MAD (pronounced: di tie yin mad, literally: &amp;ldquo;subway sound MAD&amp;rdquo;) is a subset of 音MAD videos that remixes the sounds of public transportation with popular songs for an interesting result.</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://joyhchen.github.io/post/hello-world/</link>
+      <pubDate>Sat, 13 Aug 2022 21:09:12 -0400</pubDate>
+      
+      <guid>https://joyhchen.github.io/post/hello-world/</guid>
+      <description>Hello world! Welcome to my internet home.</description>
+    </item>
+    
+  </channel>
+</rss>
