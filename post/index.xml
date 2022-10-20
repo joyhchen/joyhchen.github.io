@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Joy Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Sep 2022 22:45:39 -0400</lastBuildDate><atom:link href="https://joyhchen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 22:12:46 -0400</lastBuildDate><atom:link href="https://joyhchen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Songs I like (part 1)</title>
+      <link>https://joyhchen.github.io/post/20221019songs/</link>
+      <pubDate>Wed, 19 Oct 2022 22:12:46 -0400</pubDate>
+      
+      <guid>https://joyhchen.github.io/post/20221019songs/</guid>
+      <description>Bringing back 2000s-era blogging, where I talk about anything and everything that interests me on my blog. I am particularly interested in music none of my friends listen to. As a result, I talk about it on my blog, into the void!
+Don&amp;rsquo;t Break My Heart One of my favorite TV/film cliches is small town to big city. This song plays in the background when the main character in Lou Ye&amp;rsquo;s Summer Palace leaves for Beijing.</description>
+    </item>
+    
     <item>
       <title>Every match I watched in person at the US Open (2021-2022)</title>
       <link>https://joyhchen.github.io/post/usopen20212022/</link>
@@ -16,38 +26,6 @@
       <description>2021 Fall break in NYC! Went back to Ithaca, then drove back down again for the final.
 Carlos Alcaraz vs Stefanos Tsitsipas | 2021 US Open Round 3 Leylah Fernandez vs Naomi Osaka | 2021 US Open Round 3 Mixed Doubles Final | Krawczyk/Salisbury vs Olmos/Arevalo | 2021 US Open Emma Raducanu vs Leylah Fernandez Highlights | 2021 US Open Final 2022 No more driving 5 hours upstate!
 Hradecka/Noskova vs. Williams/Williams | 2022 US Open Round 1 Fabio Fognini vs.</description>
-    </item>
-    
-    <item>
-      <title>再靠近一点点</title>
-      <link>https://joyhchen.github.io/post/zaikaojinyidiandian220913/</link>
-      <pubDate>Tue, 13 Sep 2022 22:39:58 -0400</pubDate>
-      
-      <guid>https://joyhchen.github.io/post/zaikaojinyidiandian220913/</guid>
-      <description>就让你牵手
-再勇敢一点点
-我就跟你走
-a classic</description>
-    </item>
-    
-    <item>
-      <title>Best of 地铁音MAD</title>
-      <link>https://joyhchen.github.io/post/ditieyinmad/</link>
-      <pubDate>Sat, 13 Aug 2022 22:10:35 -0400</pubDate>
-      
-      <guid>https://joyhchen.github.io/post/ditieyinmad/</guid>
-      <description>What is Bilibili? Bilibili is a video-sharing website known for bullet comments, live comments that play over videos in real time (more: What is Bilibili?).
-What is 音MAD? 音MAD (pronounced: yin mad, literally &amp;ldquo;sound MAD&amp;rdquo;) is a category of video where a song and some audio source are remixed together. 地铁音MAD (pronounced: di tie yin mad, literally: &amp;ldquo;subway sound MAD&amp;rdquo;) is a subset of 音MAD videos that remixes the sounds of public transportation with popular songs for an interesting result.</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://joyhchen.github.io/post/hello-world/</link>
-      <pubDate>Sat, 13 Aug 2022 21:09:12 -0400</pubDate>
-      
-      <guid>https://joyhchen.github.io/post/hello-world/</guid>
-      <description>Hello world! Welcome to my internet home. This theme includes syntax highlighting :)
-public static void main(String args[]) { System.out.println(&amp;#34;Hello World!&amp;#34;); } puts &amp;#34;Hello World!&amp;#34; console.log(&amp;#34;Hello World!&amp;#34;) </description>
     </item>
     
   </channel>
