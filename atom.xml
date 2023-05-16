@@ -1,4 +1,43 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Sun, 14 May 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>Songs that remind you of a time and place</title><link>/2023/05/14/timeplace20230514/</link><description>&lt;p>In December 2019, I started compiling monthly playlists. The goal was to create a kind of musical diary, a playlist for a specific time in my life. It&amp;rsquo;s fun to reflect on songs that you listen to, and the memories just all come back to you. This is something I&amp;rsquo;ve noted to myself in my head for a while, although I wish I&amp;rsquo;d started creating playlists earlier.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>Documentation as a value add</title><link>/2023/05/15/documentationasvalueadd20230515/</link><description>&lt;p>These are my quick thoughts after writing&amp;hellip; a single page of docs. Grain of salt disclaimer.&lt;/p>
+&lt;h2 id="documentation-as-a-project">Documentation as a project &lt;a href="#documentation-as-a-project" class="hash g">#&lt;/a>&lt;/h2>
+&lt;p>Documentation is a never-ending project. The first questions you should ask with any project are: Do I need to do it? What value does it add? Applied to documentation, you can ask:&lt;/p>
+&lt;ul>
+&lt;li>Does my tool &lt;em>need&lt;/em> good documentation?&lt;/li>
+&lt;li>What value does good documentation add to my tool?&lt;/li>
+&lt;/ul>
+&lt;p>I don&amp;rsquo;t think the answers to these questions are obvious. There are a lot of tools in our lives we use simply because they&amp;rsquo;re the only option, not because they&amp;rsquo;re easy to use. If you&amp;rsquo;re the only provider of internet payments APIs in the market, maybe you&amp;rsquo;re okay with having subpar documentation, but you can quickly think of a few reasons to improve it:&lt;/p>
+&lt;ol>
+&lt;li>A young upstart might come around with better documentation, leading potential customers to choose them over you.&lt;/li>
+&lt;li>You can reduce go-live time for your customers.&lt;/li>
+&lt;li>You can establish trust with your customers and build relationships that compound over time as you develop new products.&lt;/li>
+&lt;/ol>
+&lt;p>All this is to say I understand why some companies choose not to invest in improving their documentation, but the investment certainly makes sense for some.&lt;/p>
+&lt;h2 id="documentation-as-code">Documentation as code &lt;a href="#documentation-as-code" class="hash g">#&lt;/a>&lt;/h2>
+&lt;p>My employer treats documentation with a similar rigor to code:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://twitter.com/jhzc_/status/1658270046202781696">Documentation linting rules&lt;/a> catch spelling mistakes, broken links, common language style mistakes (passive voice, confusing words like &amp;ldquo;once&amp;rdquo;), missing glossary definitions (&amp;ldquo;webhook&amp;rdquo;), and more.&lt;/li>
+&lt;li>We think about the &lt;a href="https://blog.hubspot.com/website/information-architecture">information architecture&lt;/a> of our docs, like you might think of a system design architecture before writing code.&lt;/li>
+&lt;li>Documentation goes through technical writing review.&lt;/li>
+&lt;/ol>
+&lt;h2 id="documentation-as-a-value-add">Documentation as a value add &lt;a href="#documentation-as-a-value-add" class="hash g">#&lt;/a>&lt;/h2>
+&lt;p>My employer is the first example people point to as an example of investment in documentation paying dividends over time. Having spent a lot of time reading our docs, there are a few things I can&amp;rsquo;t help but notice when I read the docs for other developer-focused projects.&lt;/p>
+&lt;ol>
+&lt;li>Some projects &lt;strong>over-invest in feature docs and under-invest in solution docs&lt;/strong>. They describe what x is but not how to use it. People visit your docs with a goal in mind, and your mission is to help them achieve it.&lt;/li>
+&lt;li>Some people &lt;strong>brain dump&lt;/strong> when they write docs. Every doc needs a thesis statement to orient its direction. Only include details that advance the user towards that goal.&lt;/li>
+&lt;li>&lt;strong>Why use many word when few word do trick&lt;/strong>. Some docs could use editing for brevity. Reading convoluted sentences takes a toil on the tired developer&amp;rsquo;s mind. The easiest example is the words &amp;ldquo;very&amp;rdquo; and &amp;ldquo;really&amp;rdquo; [0].&lt;/li>
+&lt;li>When &lt;strong>documentation is an after-thought&lt;/strong>, it&amp;rsquo;s apparent in the developer experience. If you don&amp;rsquo;t build your product ground up from the perspective of how a developer would use it, you notice when it&amp;rsquo;s hard to document. After all, documenting is just describing to a developer how they use your product.&lt;/li>
+&lt;/ol>
+&lt;p>Recently, I&amp;rsquo;ve seen a lot of AI tools to summarize documentation on Twitter. While those tools are no doubt useful, I think there&amp;rsquo;s potential in tools to help &lt;em>write&lt;/em> documentation. I want to see an AI tool that takes a 20-step brain dump guide and converts it to a 5-step MVP tutorial.&lt;/p>
+&lt;p>If you want to make documentation a differentiating point for your product, I think it&amp;rsquo;s first and foremost about the content.&lt;/p>
+&lt;p>How do you know if the content is valuable? Read it.&lt;/p>
+&lt;p>AI can help you write and edit, but the ultimate test of your docs is if&lt;/p>
+&lt;ol>
+&lt;li>A human understands them.&lt;/li>
+&lt;li>A human can use your product to build something that generates value.&lt;/li>
+&lt;/ol>
+&lt;p>That is, until AI can replace my job as a developer (I don&amp;rsquo;t think it&amp;rsquo;s there quite yet).&lt;/p>
+&lt;hr>
+&lt;p>[0] I&amp;rsquo;m allowed to use them on my blog, however, because my personal voice can creep in my blog because it&amp;rsquo;s my blog.&lt;/p></description><author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author><guid>/2023/05/15/documentationasvalueadd20230515/</guid><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate></item><item><title>Songs that remind you of a time and place</title><link>/2023/05/14/timeplace20230514/</link><description>&lt;p>In December 2019, I started compiling monthly playlists. The goal was to create a kind of musical diary, a playlist for a specific time in my life. It&amp;rsquo;s fun to reflect on songs that you listen to, and the memories just all come back to you. This is something I&amp;rsquo;ve noted to myself in my head for a while, although I wish I&amp;rsquo;d started creating playlists earlier.&lt;/p>
 &lt;p>June 2012, sitting in my uncle&amp;rsquo;s car as we drove from Yizhuang to the city center.&lt;/p>
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YwsjsiJZ1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>&lt;/iframe>
 &lt;p>September 2016, on the bus to school, I listened to this album every day for a week straight.&lt;/p>
