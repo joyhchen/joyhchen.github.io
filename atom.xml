@@ -1,4 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>Spending analytics</title><link>/2023/06/06/spendinganalytics/</link><description>&lt;h2 id="apps">Apps &lt;a href="#apps" class="hash g">#&lt;/a>&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>Why write frontend unit tests?</title><link>/2023/08/28/rtltesting/</link><description>&lt;p>At work, a debate that has come up several times is whether it&amp;rsquo;s worth writing frontend unit tests. Here&amp;rsquo;s an overview or our testing setup:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Synthetic_monitoring">Synthetic monitoring&lt;/a>&lt;/li>
+&lt;li>Unit tests&lt;/li>
+&lt;/ol>
+&lt;p>People often ask, if we have the former, why do we need the latter? With the latter, most of the time we&amp;rsquo;re just testing scenarios like:&lt;/p>
+&lt;ol>
+&lt;li>The text appears when you render the component.&lt;/li>
+&lt;li>The button click changes the screen.&lt;/li>
+&lt;li>The tooltip appears on hover.&lt;/li>
+&lt;/ol>
+&lt;p>Why test these simple things at all?&lt;/p>
+&lt;p>I was going through my old internal documents recently, and I came across a doc I wrote on backend testing helpers. In that doc, I link to the &lt;a href="https://blog.nelhage.com/2016/03/design-for-testability/">&amp;ldquo;Design for Testability&amp;rdquo;&lt;/a> article.&lt;/p>
+&lt;p>What I&amp;rsquo;ve been trying to say clicked. You should write frontend unit tests because they force you to write isolated components. If you can&amp;rsquo;t test the component easily because you have 5 different if/else statements and multiple data queries, then your component might be too big.&lt;/p>
+&lt;p>At the time, everyone thinks, well I can understand this frontend component, so it&amp;rsquo;s fine. Inevitably, other people add more code to your component, then it balloons into a 1,000 line component nobody can understand. Then you have to account for detangling the thing in your engineering estimate for a business-critical project.&lt;/p>
+&lt;p>That&amp;rsquo;s why you should write comprehensive unit tests and isolated components as a forcing mechanism for good behavior/citizenship.&lt;/p></description><author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author><guid>/2023/08/28/rtltesting/</guid><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate></item><item><title>Spending analytics</title><link>/2023/06/06/spendinganalytics/</link><description>&lt;h2 id="apps">Apps &lt;a href="#apps" class="hash g">#&lt;/a>&lt;/h2>
 &lt;p>By now, I&amp;rsquo;ve used four apps to track and manage my finances.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://mint.intuit.com/">Mint&lt;/a>&lt;/li>
