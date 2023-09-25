@@ -1,14 +1,55 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>How to know your feedback is valued</title><link>/2023/09/04/feedbackvalued/</link><description>&lt;p>A lot is written on how to give feedback to other people, with most advice oriented around how to frame the feedback. In some cases, you might be interested in evaluating if the feedback has been influential. The specific type of feedback that inspired this post is code review feedback.&lt;/p>
-&lt;p>I give and receive code review feedback every day. By now, the number of comments on my PRs is usually low, but that wasn&amp;rsquo;t the case when I first joined. I was spinning up on the team context &lt;em>and&lt;/em> Ruby at the same time. My team taught me code style best practices, let me know if there was a preferred helper function to use over the random one I copy and pasted from somewhere else, and generally helped me level up on knowledge of the codebase.&lt;/p>
-&lt;p>Looking back, you can use average number of comments on my PRs as a measurable (albeit imperfect) metric that&amp;rsquo;s changed. However, more importantly, there&amp;rsquo;s a shift in my self-confidence and attitude. If confidence is a spectrum where 0 is complete lack of faith in yourself and 100 is arrogance, ideally you&amp;rsquo;re somewhere in the middle. Both ends are not good, but the middle is good because you have opinions (ideally good ones) that can move the needle, conviction that they&amp;rsquo;re right (or at least rooted in the right idea), and the humility to change them when someone pokes a hole in your argument.&lt;/p>
-&lt;p>If you ask any of the people who originally left comments on my code if I&amp;rsquo;d actually taken their feedback to heart, I think they would say yes; they now focus on the logical changes in my PRs, rather than code style nits. When they evaluate whether their feedback was effective, they can come to a conclusion.&lt;/p>
-&lt;p>It seems like an obvious conclusion that you know your feedback is valued if it&amp;rsquo;s implemented. After all, the idiom is &amp;ldquo;actions speak louder than words.&amp;rdquo; However, the inverse is fuzzy. Is your feedback unvalued if there&amp;rsquo;s no action taken in response to it?&lt;/p>
-&lt;p>There&amp;rsquo;re probably two camps here:&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joy Chen</title><description>Joy Chen</description><link/><language>en</language><copyright>Copyright 2023, Ronalds Vilcins</copyright><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><generator>Hugo - gohugo.io</generator><docs>http://cyber.harvard.edu/rss/rss.html</docs><atom:link href="https://ronaldsvilcins.com/atom.xml" rel="self" type="application/atom+xml"/><item><title>What I did this summer</title><link>/2023/09/25/2023summer/</link><description>&lt;p>Sometimes I think I never go out, but looking back, I did a lot this summer.&lt;/p>
+&lt;h2 id="nyc">NYC &lt;a href="#nyc" class="hash g">#&lt;/a>&lt;/h2>
 &lt;ol>
-&lt;li>Yes.&lt;/li>
-&lt;li>It&amp;rsquo;s not that simple.&lt;/li>
+&lt;li>Went to &lt;a href="https://maps.app.goo.gl/JBctu9XMgLD3b6g2A">Xiang Hotpot&lt;/a>&lt;/li>
+&lt;li>Ate Japanese food at &lt;a href="https://maps.app.goo.gl/qC8qcVnbP97Ho7Zh8">Industry City&lt;/a>&lt;/li>
+&lt;li>Went to karaoke at &lt;a href="https://maps.app.goo.gl/nFsmsZFwuFArwVWd7">Cafe Mix&lt;/a>&lt;/li>
+&lt;li>Got &lt;a href="https://maps.app.goo.gl/pFxcVEYtqnpm3Bh99">soup dumplings in Brooklyn Heights&lt;/a>&lt;/li>
+&lt;li>Ate the &lt;a href="https://maps.app.goo.gl/NDndtgjK2AJgadh19">fried tangyuan at Wenwen&lt;/a>&lt;/li>
+&lt;li>Did the seafood boil with some coworkers at &lt;a href="https://ny.eater.com/2023/9/8/23864855/momofuku-ssam-bar-closing-david-chang-seaport-nyc">Momofuku Ssam Bar&lt;/a> before it closed&lt;/li>
+&lt;li>Ate &lt;a href="https://maps.app.goo.gl/RCDyXcoPMULjA1cN8">skewers at NONONO&lt;/a>&lt;/li>
+&lt;li>Played &lt;a href="https://maps.app.goo.gl/2kwuL3GamNQanZy28">mini gold at Swingers&lt;/a>&lt;/li>
+&lt;li>Got drinks at &lt;a href="https://maps.app.goo.gl/VbSKKbDc2DpfSsPv7">Pine &amp;amp; Polk&lt;/a>&lt;/li>
+&lt;li>Got drinks at &lt;a href="https://maps.app.goo.gl/9Z9AJ82LvJaoXY37A">Singlish&lt;/a>&lt;/li>
+&lt;li>Played cards in Prospect Park&lt;/li>
+&lt;li>Tried &lt;a href="https://maps.app.goo.gl/gwMeto6DDdgS4i917">Bagel Pub in Park Slope&lt;/a>&lt;/li>
+&lt;li>Went to a &lt;a href="http://www.brooklyncontra.org/">Brooklyn Contra&lt;/a> event in Park Slope&lt;/li>
+&lt;li>Ate &lt;a href="https://maps.app.goo.gl/oo5NENa6TyTXRfru7">ice cream at The Social&lt;/a> in Prospect Heights&lt;/li>
+&lt;li>River cruise for a team offsite&lt;/li>
+&lt;li>River cruise for an intern/intern manager event&lt;/li>
+&lt;li>Saw &lt;a href="https://rooftopatpier17.com/events/carly-rae-jepsen-2023/">Carly Rae Jepsen at Pier 17&lt;/a>&lt;/li>
+&lt;li>Ate at &lt;a href="https://maps.app.goo.gl/pwc3bZD8VJ2bDkbUA">Olio e Più&lt;/a>&lt;/li>
+&lt;li>Drinks at &lt;a href="https://maps.app.goo.gl/wCRAbMuY1baSpEHf8">Bangia&lt;/a>&lt;/li>
+&lt;li>Lunch at &lt;a href="https://maps.app.goo.gl/Jr5hruuwDXJSrFJU6">Shan&lt;/a> in Cobble Hill&lt;/li>
+&lt;li>Dinner at &lt;a href="https://maps.app.goo.gl/dXeRjTZwZKj1p4Sy7">Yemen Cafe&lt;/a>&lt;/li>
+&lt;li>Fruit milk slush at &lt;a href="https://maps.app.goo.gl/Bpwj46edtnikzQQv5">Debutea&lt;/a>&lt;/li>
+&lt;li>Played basketball at &lt;a href="https://maps.app.goo.gl/BGTYfLXa8T6twPRK8">Berry Playground&lt;/a>&lt;/li>
+&lt;li>Watched &lt;em>Barbie&lt;/em>&lt;/li>
+&lt;li>Watched &lt;em>Gran Turismo&lt;/em>&lt;/li>
+&lt;li>Went to the Meta office for dinner&lt;/li>
+&lt;li>Took the Metro North upstate to Beacon&lt;/li>
+&lt;li>Tried &lt;a href="https://maps.app.goo.gl/3RNUwiBBgFYYRygq9">Mabu Cafe&lt;/a>&lt;/li>
+&lt;li>Went to &lt;a href="https://maps.app.goo.gl/PkhjG1xv1JWq1KTN6">Kura Revolving Sushi Bar&lt;/a> in Fort Lee&lt;/li>
+&lt;li>Played mahjong&lt;/li>
 &lt;/ol>
-&lt;p>Typically, I begin writing with a conclusion already in mind. My blog posts are all attempts to explain to myself how I reached a conclusion, building up from the start. In this case, I don&amp;rsquo;t know which camp I sit in.&lt;/p></description><author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author><guid>/2023/09/04/feedbackvalued/</guid><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate></item><item><title>Developer productivity affects my job satisfaction</title><link>/2023/08/28/devprodjobsat/</link><description>&lt;p>An engineer on the developer productivity team interviewed me last week to understand my workflow: what&amp;rsquo;s working, what should improve, things like that.&lt;/p>
+&lt;h2 id="seattle">Seattle &lt;a href="#seattle" class="hash g">#&lt;/a>&lt;/h2>
+&lt;ol>
+&lt;li>Flew to Seattle for a few days&lt;/li>
+&lt;li>Dinner at &lt;a href="https://maps.app.goo.gl/oytds1hVse7bwcFn6">Tamari Bar&lt;/a>&lt;/li>
+&lt;li>Dessert at &lt;a href="https://maps.app.goo.gl/63FVYsNQnuqwmACx5">Baiten&lt;/a>&lt;/li>
+&lt;li>Walked around &lt;a href="https://maps.app.goo.gl/pzXQUqPWXMAB2LgAA">Green Lake&lt;/a>&lt;/li>
+&lt;li>Bought mead at the Sunday &lt;a href="https://maps.app.goo.gl/iWAPsMXwCcbDFC3X8">Ballard Farmers Market&lt;/a>&lt;/li>
+&lt;li>Lunch at &lt;a href="https://maps.app.goo.gl/nPWbqCGom1g5t11w5">Portage Bay Cafe in Ballard&lt;/a>&lt;/li>
+&lt;li>Watched boats go through the &lt;a href="https://maps.app.goo.gl/my5qc9S5r5e9BHvZA">Ballard Locks&lt;/a>&lt;/li>
+&lt;li>Bought wine at &lt;a href="https://maps.app.goo.gl/ivff7Dnc6KqAXcks7">Pike Place Market&lt;/a>&lt;/li>
+&lt;li>Tried the cookies at &lt;a href="https://maps.app.goo.gl/gWQwZtZcChmpkjxo6">Hello Robin in University Village&lt;/a>&lt;/li>
+&lt;li>Browsed &lt;a href="https://maps.app.goo.gl/PekMJqgpkZSvAeVK7">The Elliot Bay Book Company&lt;/a>&lt;/li>
+&lt;li>Bought souvenirs at &lt;a href="https://maps.app.goo.gl/n2N4JJAwxTfKzo1F6">Standard Goods&lt;/a>&lt;/li>
+&lt;li>Brunch at &lt;a href="https://maps.app.goo.gl/FjjoomeGK6xjy75R8">Nue&lt;/a>&lt;/li>
+&lt;li>Sat around Lake Union&lt;/li>
+&lt;li>Ordered an ube latte and ube cookie at &lt;a href="https://maps.app.goo.gl/NKNdd2Ku4dxgzqaZ8">Hood Famous&lt;/a>&lt;/li>
+&lt;li>Saw multiple friends I hadn&amp;rsquo;t seen in 1+ years&lt;/li>
+&lt;/ol></description><author>ronalds.vilcins@gmail.com (Ronalds Vilcins)</author><guid>/2023/09/25/2023summer/</guid><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate></item><item><title>Developer productivity affects my job satisfaction</title><link>/2023/08/28/devprodjobsat/</link><description>&lt;p>An engineer on the developer productivity team interviewed me last week to understand my workflow: what&amp;rsquo;s working, what should improve, things like that.&lt;/p>
 &lt;p>The story is I was invited because a teammate said I use &lt;em>everything&lt;/em> they build, which is true. As of the writing of this post, I hold the company record for largest stacked PR. Two things are true:&lt;/p>
 &lt;ol>
 &lt;li>I love stacked PRs!&lt;/li>
